@@ -55,7 +55,7 @@ function finishUI(ok) {
   const m = document.getElementById("msg");
   if (m)
     m.textContent = ok
-      ? "DONE"
+      ? "DONE by MaxPlayStore"
       : armedEver
         ? "Restart your console"
         : "Refresh the page and run again";
